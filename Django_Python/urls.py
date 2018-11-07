@@ -20,5 +20,6 @@ from .views import main
 
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
+    # view > helloWord
     url(r'^main/$', main),
 ]
